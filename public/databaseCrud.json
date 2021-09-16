@@ -1,0 +1,19 @@
+{
+    "databasCrud" : {
+      "-MEmjOLZj0hmKmehFxrb" : {
+        "author" : "Conficius",
+        "text" : "Choose a job you love and you'll never have to work a day in your life",
+        "uid" : "6PFRSp2vwzPKqPl16sYKeEEPvzP2"
+      },
+      "-MEmjYjnEVWMCOPunsvu" : {
+        "author" : "Abraham Lincoln ",
+        "text" : "At the end, it is not years in your life that count, but the life in your years",
+        "uid" : "6PFRSp2vwzPKqPl16sYKeEEPvzP2"
+      },
+      "-MEmjyhyRKr0TTwVZyD1" : {
+        "author" : "Albert Einstein",
+        "text" : "Logic will get you form A to Z, imagination will get you everywhere",
+        "uid" : "6PFRSp2vwzPKqPl16sYKeEEPvzP2"
+      }
+    }
+  }

@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Josefin+Slab&display=swap");
+
+$color-1: rgb(221, 221, 221);
+$color-2: #be1558;
+$color-3: #001d5a;
+$color-4: rgb(255, 255, 255);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style-type: none;
+}
+button {
+  background: none;
+  background: $color-1;
+  color:$color-3;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 3px;
+  transition: 0.2s;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+
+  &:hover {
+    filter: brightness(120%);
+  }
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  max-width: 1050px;
+  margin: 0 auto;
+  background: $color-4;
+  color: rgb(241, 241, 241);
+
+  .login-page {
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+      margin: 70px 0;
+    }
+  }
+  main {
+    // display: flex;
+    // justify-content: center;
+    // flex-direction: column;
+    // align-items: center;
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      padding: 1rem;
+      background: $color-4;
+      color: $color-3;
+    
+
+      div {
+        color: #eee;
+        cursor: pointer;
+        padding: 0.4rem 0.8rem;
+        background: $color-3;
+        transition: 0.2s;
+        border-radius: 30px;
+
+        &:hover {
+          filter: brightness(120%);
+        }
+      }
+    }
+    .create {
+      margin: 4rem auto;
+      padding: 1rem;
+      background: #eee;
+      box-shadow: 2px 2px 7px rgb(167, 167, 167);
+      width: 600px;
+      font-size: 1.5rem;
+      
+
+      h4 {
+        font-weight: 200;
+      }
+
+      .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+        width: 100%;
+
+        input {
+          height: 55px;
+        }
+        textarea {
+          height: 120px
+        }
+
+        textarea,
+        input {
+          padding: 0.8rem;
+          width: 80%;
+          margin: 10px;
+          resize: none;
+          font-family: "Josefin Slab", serif;
+          font-size: 1.2rem;
+          border: none;
+
+          &::placeholder {
+            font-family: "Josefin Slab", serif;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+    .read {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+
+        li {
+          background: rgb(0,25,85);
+background: linear-gradient(0deg, rgba(0,25,85,1) 0%, rgba(3,136,223,1) 100%);
+          min-width: 280px;
+          max-width: 330px;
+          padding: 2rem 2rem 1rem;
+          margin: 10px 10px;
+          position: relative;
+          text-align: center;
+          height: 100%;
+          display: grid;
+          align-items: center;
+
+          p {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            font-family: "Josefin Slab", serif;
+            font-weight: 500;
+          }
+          h6 {
+            font-size: 0.8rem;
+            font-style: italic;
+            font-weight: 100;
+          }
+          .buttons-container {
+            margin-top: 1rem;
+            text-align: right;
+
+            button {
+              font-size: 0.7rem;
+              margin-left: 10px;
+              padding: 5px;
+            }
+          }
+        }
+      }
+      .item-container-update {
+        textarea {
+          resize: none;
+          height: 90px;
+          width: 100%;
+        }
+        input {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
